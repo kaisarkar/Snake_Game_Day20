@@ -5,8 +5,8 @@ from food import Food
 from scoreboard import Scoreboard
 
 screen = Screen()
-screen.setup(width=600, height=600)
-screen.bgcolor("black")
+screen.setup(width=600, height=600) # Setting up screen size
+screen.bgcolor("black") # background colour of Canvas
 screen.title("Snake Game")
 screen.tracer(0)
 starting_position = [(0, 0), (-20, 0), (-40, 0)]
